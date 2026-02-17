@@ -6,6 +6,22 @@
 
 ---
 
+## 🧠 The Business Logic (AI Brain)
+
+Unlike traditional sites that are just "pages," SmileCraft is powered by a central **Knowledge Base** that informs the AI Agent.
+
+📄 **[View the Brain: SMILECRAFT_KNOWLEDGE_BASE.md](./SMILECRAFT_KNOWLEDGE_BASE.md)**
+
+This file defines the clinic's:
+
+- **Services & Pricing**: (e.g., Implants from $2,000, Invisalign from $3,500)
+- **Operational Rules**: Hours, cancellation policies, insurance acceptance.
+- **Tone of Voice**: Empathetic, professional, and value-driven.
+
+_The AI reads this document to answer patient questions instantly and accurately, without hallucinating._
+
+---
+
 ## 🚫 The Problem: Your Website Is Leaking Patients
 
 You lose potential patients every single day. Not because your work isn't incredible, but because your website follows the "Old Way":
@@ -21,7 +37,7 @@ You lose potential patients every single day. Not because your work isn't incred
 
 ---
 
-## 💎 Why This Wins (The Business Logic)
+## 💎 Why This Wins (The ROI)
 
 ### 🤖 AI Receptionist (24/7 Availability)
 
@@ -53,7 +69,7 @@ Built with modern, scalable architecture designed for performance and SEO domina
 
 - **Core**: [React](https://react.dev/) + [Vite](https://vitejs.dev/) (Blazing fast load times)
 - **Language**: [TypeScript](https://www.typescriptlang.org/) (Enterprise-grade reliability)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Bespoek design system)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Bespoke design system)
 - **Motion**: [Framer Motion](https://www.framer.com/motion/) (Physics-based interactions)
 
 ---
