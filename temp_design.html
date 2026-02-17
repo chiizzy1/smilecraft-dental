@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dentica Elite Editorial Landing Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2949ff",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#0f1223",
+                        "text-main": "#0A0F1E",
+                        "off-white": "#F5F5F0",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem", 
+                        "lg": "2rem", 
+                        "xl": "3rem", 
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom utilities for editorial layout */
+        .text-stroke {
+            -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+            color: transparent;
+        }
+        .mix-blend-multiply {
+            mix-blend-mode: multiply;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main font-display antialiased overflow-x-hidden">
+<!-- Navigation Bar -->
+<nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md dark:bg-background-dark/90 border-b border-gray-100 dark:border-gray-800 transition-all duration-300">
+<div class="max-w-[1440px] mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
+<!-- Logo -->
+<a class="font-serif text-2xl lg:text-3xl font-bold tracking-tight text-text-main dark:text-white" href="#">
+                Dentica Elite.
+            </a>
+<!-- Desktop Menu -->
+<div class="hidden md:flex items-center gap-12">
+<a class="text-xs font-semibold tracking-[0.15em] text-gray-600 dark:text-gray-300 hover:text-primary transition-colors uppercase" href="#">Services</a>
+<a class="text-xs font-semibold tracking-[0.15em] text-gray-600 dark:text-gray-300 hover:text-primary transition-colors uppercase" href="#">Doctors</a>
+<a class="text-xs font-semibold tracking-[0.15em] text-gray-600 dark:text-gray-300 hover:text-primary transition-colors uppercase" href="#">Stories</a>
+<a class="text-xs font-semibold tracking-[0.15em] text-gray-600 dark:text-gray-300 hover:text-primary transition-colors uppercase" href="#">Contact</a>
+</div>
+<!-- CTA -->
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-blue-700 text-white text-xs font-bold tracking-widest px-8 py-4 rounded-full transition-all hover:scale-105 shadow-lg shadow-primary/30 hidden sm:block uppercase">
+                    Book Now
+                </button>
+<button class="md:hidden p-2 text-text-main dark:text-white">
+<span class="material-icons">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen pt-32 pb-20 px-6 lg:px-12 flex flex-col justify-center overflow-hidden bg-white dark:bg-background-dark">
+<div class="max-w-[1440px] mx-auto w-full relative z-10">
+<!-- Top Right Badges (Floating) -->
+<div class="absolute top-0 right-0 hidden lg:flex flex-col gap-4 z-20 translate-y-12">
+<div class="bg-off-white dark:bg-gray-800 p-6 rounded-full w-40 h-40 flex flex-col items-center justify-center text-center shadow-sm border border-gray-100 dark:border-gray-700">
+<span class="font-serif text-4xl font-bold text-text-main dark:text-white">11</span>
+<span class="text-[10px] uppercase tracking-widest text-gray-500 font-semibold mt-1">Practice<br/>Doctors</span>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 rounded-full w-32 h-32 flex flex-col items-center justify-center text-center shadow-lg -ml-12 border border-gray-100 dark:border-gray-700">
+<span class="font-serif text-2xl font-bold text-text-main dark:text-white">15+</span>
+<span class="text-[10px] uppercase tracking-widest text-gray-500 font-semibold mt-1">Years<br/>Exp.</span>
+</div>
+</div>
+<!-- Main Headline Content -->
+<div class="relative z-10 grid grid-cols-12 gap-8 items-center mt-10 lg:mt-0">
+<div class="col-span-12 lg:col-span-8 relative">
+<!-- Massive Headline -->
+<h1 class="font-serif text-[13vw] lg:text-[8.5rem] leading-[0.85] text-text-main dark:text-white mix-blend-difference z-30 relative tracking-tight">
+                        CARING <br/>
+<span class="ml-[10%] italic font-light">for your</span> <br/>
+<span class="italic text-primary font-light">Smile</span> AND <br/>
+                        HEALTH
+                    </h1>
+<!-- Hero Image (Circle Mask) -->
+<div class="absolute top-1/2 left-[40%] -translate-y-[45%] w-[40vw] h-[40vw] max-w-[500px] max-h-[500px] rounded-full overflow-hidden z-[-1] border-8 border-off-white dark:border-gray-800 hidden md:block">
+<img alt="Close up of a dentist performing a gentle checkup on a patient" class="w-full h-full object-cover scale-110 opacity-90 hover:scale-100 transition-transform duration-1000" data-alt="Close up dental checkup procedure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6jmPTRp4HK9I1j57MGqX5op6RODxy7EtaH8zml0xYCkwuXVCGpZ8-0PN9UeVKUeAOt23wfPO9wZfWT4mAFsztKlEofHBIbovxd7CsXl_Tlp5jL_j0vTOzkVDWnbNtovYyC_vtn_nT0KkgXqPWbOF9pls7-Tq6bnkUdE3vlaL5DGmt4D32M48ZxUSFi2p37uWtFojzZwG1TwkVaNSkbDeIn7cfmEiE0y1fBwjU8LLDAfpHe13oCJfhILzRKndZpZASsVq-XQK3nEk"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+</div>
+</div>
+</div>
+<!-- Bottom Content -->
+<div class="mt-20 lg:mt-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+<div class="col-span-1 md:col-span-5 lg:col-span-4 flex flex-col items-start gap-8">
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed max-w-xs border-l-2 border-primary pl-4">
+                        We believe in a holistic approach to dental aesthetics, blending art with medical precision. Experience the elite standard.
+                    </p>
+<a class="group relative inline-flex items-center justify-center bg-primary hover:bg-blue-700 text-white font-bold px-10 py-5 rounded-full overflow-hidden transition-all hover:w-full sm:hover:w-auto w-full sm:w-auto" href="#">
+<span class="relative z-10 text-sm tracking-widest uppercase">Choose Services</span>
+<div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+</a>
+</div>
+<!-- Mobile Only Image -->
+<div class="col-span-1 md:hidden mt-8">
+<div class="w-full aspect-square rounded-full overflow-hidden border-4 border-off-white dark:border-gray-800">
+<img alt="Dental procedure closeup" class="w-full h-full object-cover" data-alt="Dental procedure closeup mobile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs_DQuzuJmYzBpSE87g7br10RXxW-Wduv0p5Uy8eEduy2GeWd1MgGUEo89uV28iw7aDgtaIthX1rL-3Lb-KZwTHe8X4q1CAHqBnbI3GrHXPBk50_S29Hi4Fzj7LcnJuvZI-aHXgLW9-1ni9JZDofnZ6dUwW2R-yrbu_yxJnb7VJYv6K2yFdFaIEIXvwa7H5wz2R-fowq_LOdpLVJjeLW9bEu_1CTdcRghdCfdCuiU7pGTwYXqWkLw5a12sIwdh81_vkM_E3aFavk8"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative subtle pattern -->
+<div class="absolute bottom-0 right-0 w-1/3 h-1/3 bg-gradient-to-tl from-primary/5 to-transparent pointer-events-none rounded-tl-full"></div>
+</header>
+<!-- About Section / Editorial Grid -->
+<section class="py-32 bg-white dark:bg-background-dark relative overflow-hidden">
+<div class="max-w-[1440px] mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+<!-- Left Column: Typography Stack -->
+<div class="relative pt-12">
+<span class="inline-block text-primary text-xs font-bold tracking-[0.2em] uppercase mb-6 bg-primary/10 px-3 py-1 rounded-md">Our Philosophy</span>
+<h2 class="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[0.95] text-text-main dark:text-white mb-12">
+                        YOUR SMILE <br/>
+<span class="italic font-light text-gray-400 dark:text-gray-500">DESERVES</span> <br/>
+                        THE <span class="text-primary">EXCELLENCE</span>
+</h2>
+<div class="flex flex-col gap-8 max-w-md ml-auto lg:ml-12 border-t border-gray-200 dark:border-gray-800 pt-8">
+<h3 class="font-display font-medium text-xl text-text-main dark:text-white uppercase tracking-wide">
+                            Experience the Art of Dentistry Luxury
+                        </h3>
+<p class="text-gray-500 dark:text-gray-400 leading-relaxed font-light">
+                            At Dentica Elite, we curate smiles that transform lives. Our practice is not just about oral health; it is a sanctuary of precision, aesthetics, and comfort designed for the modern individual who refuses to compromise.
+                        </p>
+<a class="inline-flex items-center gap-3 text-primary font-semibold hover:gap-5 transition-all group mt-4" href="#">
+<span class="uppercase text-sm tracking-widest border-b border-transparent group-hover:border-primary pb-0.5">Book a Consultation</span>
+<span class="material-icons text-lg group-hover:rotate-45 transition-transform duration-300">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Image Collage -->
+<div class="relative mt-12 lg:mt-0 h-full min-h-[600px] flex items-center">
+<!-- Background Shape -->
+<div class="absolute top-0 right-0 w-3/4 h-full bg-off-white dark:bg-gray-800/50 rounded-tl-[100px] rounded-bl-3xl -z-10"></div>
+<!-- Image 1: Interior -->
+<div class="relative z-10 ml-8 w-3/5 aspect-[3/4] rounded-lg overflow-hidden shadow-2xl transform translate-y-12 lg:translate-y-24">
+<img alt="Modern minimalist dental clinic waiting area with designer furniture" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" data-alt="Modern luxury dental clinic interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB66xRXCrxw11nb_I_I3pnductRVHYHcQBD6zGudF88SjlqGZmuSPFtWQ9hkwX55PdT32U_f01J0zJb_9ESo1A1vJwXxFdhEjqKGbArt0JMAL7XMA7zmx4BvzqxDj2m1ErmzbrsAs3OaArCRIe2hASrJYzsV32F5DRXGXZ0aQ6bCClOQeMKrmNycXViNFlEV8Dkd3hJWeDPx10CFrHfBqTQp7tyJWXE-NkIxvo_fXA1FvYckmdKvJNQRXMOSr1UHnoZu6uzmZdtzmM"/>
+<div class="absolute bottom-4 left-4 bg-white/90 dark:bg-black/80 backdrop-blur px-4 py-2 rounded-md">
+<span class="text-[10px] uppercase font-bold tracking-widest text-text-main dark:text-white">Clinic Interior</span>
+</div>
+</div>
+<!-- Image 2: Procedure (Overlapping) -->
+<div class="absolute top-0 right-4 lg:right-12 w-3/5 aspect-[4/5] rounded-lg overflow-hidden shadow-2xl border-4 border-white dark:border-background-dark transform -translate-y-12 lg:translate-y-0">
+<img alt="Dentist holding dental tools with precision lighting" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" data-alt="Precision dental tools in use" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRyiSW9NjLEqK2HXqJif9MWaAmHF3jgITLw6Fo75oEraKPfVviyy3RFJSsZGug2MDWgUhJX1wpilvaoVWgFm0LoS0UwRybM0J9E5MuWjGU99Y0BoKk8eJz8dNQj7ol_Pr3Os7oFzVs8xuDQ8YUim0bku5Y6SkCo0yorILn0H0ARrsrvzZFZ5F8EQe7Uu0E0VIRhjgdpwuwTTFPuwzRXP8FLBXjtO8HHjS9easfcrc-_1JZBc4-j4BfJvO-LYuSyUbC1WkwAOSQZ4c"/>
+<div class="absolute top-4 right-4 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center">
+<span class="material-icons text-sm">star</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Marquee Text Separator -->
+<div class="bg-text-main dark:bg-white py-6 overflow-hidden relative rotate-1 scale-105 my-12">
+<div class="flex items-center gap-12 whitespace-nowrap animate-marquee">
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Holistic Care</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Modern Aesthetics</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Advanced Technology</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Expert Doctors</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Holistic Care</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Modern Aesthetics</span>
+<span class="text-gray-500 text-2xl font-display">●</span>
+<span class="text-white dark:text-text-main font-serif text-4xl italic px-4">Advanced Technology</span>
+</div>
+</div>
+<!-- Features / Highlights Minimal Grid -->
+<section class="py-24 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1440px] mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg group hover:shadow-xl transition-shadow duration-300 border border-transparent hover:border-gray-100 dark:hover:border-gray-700">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-icons">medical_services</span>
+</div>
+<h4 class="font-serif text-2xl mb-3 dark:text-white">General Dentistry</h4>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">Routine checkups and cleaning with a focus on preventative care.</p>
+<a class="text-xs font-bold uppercase tracking-widest text-text-main dark:text-white flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Learn More <span class="material-icons text-sm">arrow_right_alt</span></a>
+</div>
+<!-- Card 2 -->
+<div class="bg-primary p-8 rounded-lg group shadow-xl transform md:-translate-y-8">
+<div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-6 text-white">
+<span class="material-icons">auto_fix_high</span>
+</div>
+<h4 class="font-serif text-2xl mb-3 text-white">Cosmetic Design</h4>
+<p class="text-white/80 text-sm leading-relaxed mb-6">Smile makeovers, veneers, and whitening for a radiant appearance.</p>
+<a class="text-xs font-bold uppercase tracking-widest text-white flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Learn More <span class="material-icons text-sm">arrow_right_alt</span></a>
+</div>
+<!-- Card 3 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg group hover:shadow-xl transition-shadow duration-300 border border-transparent hover:border-gray-100 dark:hover:border-gray-700">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-icons">child_care</span>
+</div>
+<h4 class="font-serif text-2xl mb-3 dark:text-white">Orthodontics</h4>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">Modern alignment solutions including invisible aligners and braces.</p>
+<a class="text-xs font-bold uppercase tracking-widest text-text-main dark:text-white flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Learn More <span class="material-icons text-sm">arrow_right_alt</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer CTA -->
+<section class="py-20 px-6 bg-white dark:bg-background-dark border-t border-gray-100 dark:border-gray-800">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-serif text-4xl md:text-5xl text-text-main dark:text-white mb-8">Ready to transform your smile?</h2>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="bg-primary hover:bg-blue-700 text-white text-sm font-bold tracking-widest px-10 py-5 rounded-full transition-all shadow-lg hover:shadow-primary/40 uppercase">
+                    Book an Appointment
+                </button>
+<button class="bg-transparent border border-gray-200 dark:border-gray-700 text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800 text-sm font-bold tracking-widest px-10 py-5 rounded-full transition-all uppercase">
+                    View Gallery
+                </button>
+</div>
+</div>
+</section>
+</body></html>
