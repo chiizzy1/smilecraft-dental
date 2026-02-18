@@ -214,6 +214,6 @@ export const FOOTER_CONTENT = {
     },
   ],
   brand: "Dentica Elite",
-  copyright: "© 2024 Dentica Elite Inc.",
+  copyright: "© 2026 Dentica Elite Inc.",
   tagline: "Designed for Excellence",
 };
